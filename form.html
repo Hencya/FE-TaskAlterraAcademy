@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+</head>
+<body>
+    <h1>Buat Account Baru!</h1>
+    <h2>Sign Up Form</h2>
+    <form action="welcome.html">
+        <label for="">First name</label><br>
+        <input type="text" required><br><br>
+        <label for="">Last name</label><br>
+        <input type="text" required><br><br>
+
+        <label for="">Gender</label><br>
+        <input type="radio" id="Male" name="Gender" value="Male" required>
+        <label for="">Male</label><br>
+        <input type="radio" id="Female" name="Gender" value="Female">
+        <label for="">Female</label><br>
+        <input type="radio" id="Other" name="Gender" value="Other">
+        <label for="">Other</label><br><br>
+
+        <label for="nasionality">Nasionality</label><br>
+        <select name="Nasionality" id="nasionality">
+            <option value="Indonesia">Indonesia</option>
+            <option value="Thai">Thai</option>
+            <option value="Pinoy">Pinoy</option>
+        </select><br><br>
+
+        <label for="Languge">Language Spoken</label><br>
+        <input type="checkbox" id="indonesia" name="indonesia" value="Bahasa Indonesia">
+        <label for="">Bahasa Indonesia</label><br>
+        <input type="checkbox" id="English" name="english" value="English">
+        <label for="">English</label><br>
+        <input type="checkbox" id="Other" name="other" value="Other">
+        <label for="">Other</label><br><br>
+
+        <label for="bio">Bio :</label><br>
+        <textarea name="bio" id="bio" cols="30" rows="10" required></textarea><br>
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+</html>
