@@ -1,0 +1,11 @@
+body {
+  background-image: url("/assets/img/sample-pattern.png");
+}
+
+h2 {
+  color: rgb(70, 70, 111);
+}
+
+.container {
+  font-family: "Times New Roman", Times, serif;
+}

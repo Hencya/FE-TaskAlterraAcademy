@@ -1,0 +1,37 @@
+.container {
+  font-family: "Slabo 27px", serif;
+  font-size: 20px;
+  color: white;
+}
+
+.top-box {
+  display: flex;
+  width: 330px;
+  margin: 30px auto;
+  justify-content: space-between;
+}
+
+#red-box {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  text-align: center;
+}
+
+#blue-box {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  text-align: center;
+}
+
+#green-box {
+  background-color: green;
+  height: 300px;
+  width: 300px;
+  padding: 0px 15px;
+  border-radius: 20px;
+  margin: 50px auto;
+}
